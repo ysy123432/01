@@ -9,6 +9,10 @@ import seaborn as sns
 import pandas as pd
 import time
 from fastai.vision.all import *
+from pathlib import Path
+
+# 确保使用 Windows 特有的路径类
+path = Path("C:/some/path")
 
 
 # 设置页面配置
